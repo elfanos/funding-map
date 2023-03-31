@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  backend:
+    container_name: "backend"
+    image: node:18-slim
+    volumes:
+      - ./backend:/backend
+    working_dir: /backend
+    ports:
+      - 8080:8080
+    environment:
+      ES_URL: $ES_URL
+      FORCE_COLOR: 3
+    command: yarn dev
+
+  frontend:
+    container_name: "frontend"
+    image: node:18-slim
+    volumes:
+      - ./frontend:/frontend
+    working_dir: /frontend
+    ports:
+      - 3000:3000
+    environment:
+      FORCE_COLOR: 3
+    command: yarn dev
