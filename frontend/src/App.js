@@ -12,11 +12,6 @@ export default function App() {
       </p>
 
       <p>
-        Don't panic! We won't judge you for hacky code, we simply want you to
-        solve a problem for us in any way you want.
-      </p>
-
-      <p>
         This repository is a barebones setup with a Node backend and a React
         frontend. If you really want to, you can tear it all down and start from
         scratch, but this is meant to get you started immediately.
