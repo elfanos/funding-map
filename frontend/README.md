@@ -10,17 +10,14 @@ Also visualize the funding made in countries from the beginning of the dataset.
 
 ## Developer guide
 
-1. Install all dependencies
-2. ```bash
-   yarn
-   ```
-3. Start development server
-
 ```bash
+   # Install all dependencies
+   yarn
+   # Start development server
    yarn dev
 ```
 
-4. Open http://localhost:3000 in your browser
+Open http://localhost:3000 in your browser
 
 ## Build
 
