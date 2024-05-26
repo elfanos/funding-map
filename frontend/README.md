@@ -8,11 +8,29 @@ It uses two colors to differ the amount on funding in a country relative to othe
 Currently it is possible to select a date and see its funding distribution.
 Also visualize the funding made in countries from the beginning of the dataset.
 
-## To run
+## Developer guide
 
-Dependencies:
+1. Install all dependencies
+2. ```bash
+   yarn
+   ```
+3. Start development server
 
-- Need to run the backend server to fetch the data
+```bash
+   yarn dev
+```
 
-- yarn
-- yarn dev
+4. Open http://localhost:3000 in your browser
+
+## Build
+
+```bash
+yarn build
+```
+
+or run the following command to build the app
+and run it in preview
+
+```bash
+yarn start
+```
