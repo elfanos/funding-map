@@ -17,10 +17,10 @@ services:
     container_name: "frontend"
     image: node:18-slim
     volumes:
-      - ./rasmus-fe-code-test:/rasmus-fe-code-test
-    working_dir: /rasmus-fe-code-test
+      - ./frontend:/frontend
+    working_dir: /frontend
     ports:
       - 3000:3000
     environment:
       FORCE_COLOR: 3
-    command: yarn dev
+    command: yarn start

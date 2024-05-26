@@ -13,6 +13,6 @@ Also visualize the funding made in countries from the beginning of the dataset.
 Dependencies:
 
 - Need to run the backend server to fetch the data
-  Make a task list how to run
+
 - yarn
 - yarn dev
