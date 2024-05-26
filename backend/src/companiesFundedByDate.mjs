@@ -26,7 +26,7 @@ function getCompaniesFromResponse(response) {
 function companiesFoundedByDate(client, date) {
   async function getOrganizationBasedOnCompany(query) {
     const response = await client.search({
-      index: "org", // Your index name
+      index: "org",
       body: {
         size: 1000,
         query: {

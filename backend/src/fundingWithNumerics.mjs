@@ -11,7 +11,7 @@ export default function indexFunding(client) {
             funding_round_uuid: { type: "keyword", index: false },
             investment_type: { type: "keyword" },
             investor_names: { type: "keyword" },
-            raised_amount_usd: { type: "double" }, // Correct type
+            raised_amount_usd: { type: "double" },
           },
         },
       },
