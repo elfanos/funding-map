@@ -14,5 +14,5 @@ Dependencies:
 
 - Need to run the backend server to fetch the data
   Make a task list how to run
-- npm install
-- npm run dev
+- yarn
+- yarn dev

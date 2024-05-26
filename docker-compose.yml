@@ -17,8 +17,8 @@ services:
     container_name: "frontend"
     image: node:18-slim
     volumes:
-      - ./frontend:/frontend
-    working_dir: /frontend
+      - ./rasmus-fe-code-test:/rasmus-fe-code-test
+    working_dir: /rasmus-fe-code-test
     ports:
       - 3000:3000
     environment:
